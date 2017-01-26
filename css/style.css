@@ -1,0 +1,119 @@
+/
+COLORS:
+Orange: #FFB52B
+Light Orange: #FFBE45
+Dark Orange: #B2790F
+Blue: #004FB2
+Light Blue: #2B88FF
+*/
+
+body {
+    background-color: none;
+    color:blue;
+}
+
+#header{
+    width:100%;
+    background-color: none;
+    min-height: 80px;
+}
+#header > h1 {
+    text-align:center;
+    font-family:sans-serif;
+    position:relative;;
+    color:    #2B88FF
+   
+}
+#nav{
+    width:100%;
+    background-color:blue;
+    min-height: 80px;
+    font-family:'lato';
+    height:auto;
+    
+    
+        
+}
+#nav > ul{
+    
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    transform: translateYscale(50%);
+    }
+
+#nav > ul > button{
+    min-width: 120px;
+    color: #fff;
+    background-color: #FFBE45;
+    border: none;
+    padding: 15px 32px;
+    transition: background-color .25s;
+}
+#nav > ul > button:hover {
+    background-color: #B2790F
+}
+
+.side-by-side{
+    display: flex;
+    
+}
+
+
+
+
+#main-content-wrapper  .image-content {
+    text-align: center;
+    width: 50%;
+    margin-top: 50px;
+    
+}
+.img-content > img {
+    border-radius: 50%;
+    max-width: 200px;
+       
+}
+
+.img-content > h4{
+    font-family:'lato', sans-serif;
+    font-weight:300
+    color: #FFB52B
+}
+#main-content-wrapper  article {
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 75px
+}
+.img-content > h4 > a{
+    color:#FFB52B;
+}
+.img-content > h4 > a:hover{
+    color:#2B88FF;
+}
+#middle-wrapper-width{
+    display: flex;
+    font-family: 'lato', sans serif;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#middle-wrapper{
+    
+}
+
+#aside-content-wrapper {
+   background-color: plum;
+    width: 20%;
+}
+
+
+footer{
+  background-color: coral;
+      margin:0;
+      
+}
+
+footer > h1{
+    margin: 0;
+}
+
