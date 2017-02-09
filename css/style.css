@@ -157,10 +157,12 @@ body {
     position:relative;
     position: relative;
         }
+#favorite{
     background-image: url(img/bg.jpeg);
     border-top: 5px #B2790F solid;
     border-bottom: 5px 004fb2;
 }
+#favorite > ul {
     list-style-type: none;
     display:flex;
     justify-content: space-around;
